@@ -1,0 +1,180 @@
+html
+{
+    overflow: auto;
+}
+.head-line
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #505050;
+    color: white;
+    padding: 2px 2px 2px 3%;
+
+}
+
+h1
+{
+    width: 60%;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-left: 450px;
+    color: white;
+    font-size: 4em;
+    border: solid 4px #D79F59;
+    border-radius: 15px;
+    background-color: #D79F59; 
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+.main
+{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: dotted 3px black;
+    margin-bottom: 50px;
+}
+
+.main1
+{
+    font-size: 16px;
+    margin: 3px;
+    text-align: center;
+}
+
+.middle
+{
+    text-align: center;
+    width:  100%;
+    border-bottom: dotted 3px black;
+}
+
+
+
+b
+{
+    font-size: 28px;
+}
+
+
+img
+{
+    width: 400px;
+    margin: 40px 30px 0 0;
+    border-radius: 600px;
+
+}
+
+.img1
+{ 
+    width: 400px;
+    margin: 40px 30px 0 0;
+    border-radius: 600px;
+    vertical-align: middle;
+}
+span
+{
+    color: #FDE1B4;
+}
+.foot-line
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #505050;
+    color: white;
+    padding: 4px 40% 4px 40%;
+}
+
+a
+{
+    text-decoration-line: none;
+    color: white;
+}
+
+.introduce
+{
+    width: 60%;
+    height: 500px;
+    border: solid 3px black;
+    padding-left: 10px;
+    margin : 0 auto;
+    margin-bottom: 50px;
+    
+    }
+
+.self_img
+{
+    width: 500px; 
+    height: 500px;
+  
+    border-right: solid 3px black;
+    margin: 0 auto ;
+    float: left;
+}
+.self_introduce
+{
+    width: 50%;
+    height: 500px;
+    border-left: solid 1px black;
+}
+
+ .graph { 
+        position: relative; /* IE is dumb */
+        width: 700px; 
+        border: 1px solid #1c1d17; 
+        padding: px; 
+		font-size:11px;
+		font-family:tahoma;
+		margin-bottom:3px;
+        margin-left: 100px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        
+        
+    }
+
+    .graph-container
+    {
+        display: inline-block;
+    }
+    .graph .bar { 
+        display: block;
+        position: relative;
+        background: #0a0a0af1; 
+        text-align: center; 
+        color: rgb(247, 242, 242); 
+        height: 3em; 
+        line-height: 2em;     
+        padding-top: 8px;     
+    
+    }
+    .graph .bar span { position: absolute; left: 1em; }
+
+    .graph-title
+    {
+        width: 400px;
+    }
+
+    .processivity
+    {
+        width: 60%;
+        height: 400px;
+        padding-top:30px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .tt
+    {
+        font-size: 20px;
+        margin-bottom: 30px;
+        
+    }
+
